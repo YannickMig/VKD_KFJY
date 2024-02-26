@@ -22,13 +22,19 @@
 \headcommand {\sectionentry {4}{Milchmenge je Farm}{6}{Milchmenge je Farm}{0}}
 \headcommand {\slideentry {4}{0}{1}{6/6}{}{0}}
 \headcommand {\beamer@framepages {6}{6}}
-\headcommand {\beamer@sectionpages {6}{6}}
-\headcommand {\beamer@subsectionpages {6}{6}}
-\headcommand {\sectionentry {5}{Literaturverzeichnis}{7}{Literaturverzeichnis}{0}}
-\headcommand {\slideentry {5}{0}{0}{7/7}{}{0}}
+\headcommand {\slideentry {4}{0}{2}{7/7}{}{0}}
 \headcommand {\beamer@framepages {7}{7}}
-\headcommand {\beamer@partpages {1}{7}}
-\headcommand {\beamer@subsectionpages {6}{7}}
-\headcommand {\beamer@sectionpages {6}{7}}
-\headcommand {\beamer@documentpages {7}}
-\headcommand {\gdef \inserttotalframenumber {6}}
+\headcommand {\slideentry {4}{0}{3}{8/8}{}{0}}
+\headcommand {\beamer@framepages {8}{8}}
+\headcommand {\slideentry {4}{0}{4}{9/9}{}{0}}
+\headcommand {\beamer@framepages {9}{9}}
+\headcommand {\beamer@sectionpages {6}{9}}
+\headcommand {\beamer@subsectionpages {6}{9}}
+\headcommand {\sectionentry {5}{Literaturverzeichnis}{10}{Literaturverzeichnis}{0}}
+\headcommand {\slideentry {5}{0}{0}{10/10}{}{0}}
+\headcommand {\beamer@framepages {10}{10}}
+\headcommand {\beamer@partpages {1}{10}}
+\headcommand {\beamer@subsectionpages {6}{10}}
+\headcommand {\beamer@sectionpages {6}{10}}
+\headcommand {\beamer@documentpages {10}}
+\headcommand {\gdef \inserttotalframenumber {9}}

@@ -1,5 +1,5 @@
-load("C:/Users/yanni/Desktop/Studium/3. Semester/Visualisierung komplexer Datenstrukturen/Abschlussprojekt/kuehe.RData")
-
+setwd(dirname(rstudioapi::getActiveDocumentContext()$path))
+load("kuehe.RData")
 gesk <- numeric(1228)
 for(i in 1:1228){
   gesk[i] <- kuehe[i,21]+kuehe[i,23]+kuehe[i,25]+kuehe[i,27]+kuehe[i,29]+kuehe[i,31]+kuehe[i,33]
@@ -51,4 +51,4 @@ Fleckvieh <- f[which(f != 0)]
 
 plotrasse <- rbind(Fleckvieh,Holstein_Schwarzbunt)
 PlotFaces(plotrasse[1:2,],nr = 1 , nc = 2, scale = T)
-
+citation("DescTools")

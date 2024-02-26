@@ -2,4 +2,4 @@
 \beamer@sectionintoc {2}{Laktationseinflüsse}{4}{0}{2}
 \beamer@sectionintoc {3}{Milchmenge und Gewicht}{5}{0}{3}
 \beamer@sectionintoc {4}{Milchmenge je Farm}{6}{0}{4}
-\beamer@sectionintoc {5}{Literaturverzeichnis}{7}{0}{5}
+\beamer@sectionintoc {5}{Literaturverzeichnis}{10}{0}{5}
