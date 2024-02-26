@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.21)  26 FEB 2024 22:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.21)  26 FEB 2024 22:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1397,12 +1397,21 @@ Package pdftex.def Info: Boxplot Milch~Farm.png  used on input line 71.
 [6
 
  <./Boxplot Milch~Farm.png>]
-<Mosaikplots.png, id=104, 967.52162pt x 513.73326pt>
+<Mosaikplots.png, id=104, 1075.08627pt x 552.3893pt>
 File: Mosaikplots.png Graphic file (type png)
 <use Mosaikplots.png>
 Package pdftex.def Info: Mosaikplots.png  used on input line 80.
-(pdftex.def)             Requested size: 342.29536pt x 181.75339pt.
- [7
+(pdftex.def)             Requested size: 376.28583pt x 193.33914pt.
+
+Overfull \hbox (33.99046pt too wide) in paragraph at lines 80--80
+ [] 
+ []
+
+
+Overfull \vbox (4.4051pt too high) detected at line 80
+ []
+
+[7
 
  <./Mosaikplots.png>]
 <Bedingtes Dichtediagramm.png, id=114, 1075.08627pt x 552.3893pt>
@@ -1460,7 +1469,7 @@ Here is how much of TeX's memory you used:
 b><C:/Users/yanni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pf
 b><C:/Users/yanni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss8.pfb
 >
-Output written on Vortrag.pdf (10 pages, 145115 bytes).
+Output written on Vortrag.pdf (10 pages, 148624 bytes).
 PDF statistics:
  162 PDF objects out of 1000 (max. 8388607)
  26 named destinations out of 1000 (max. 500000)

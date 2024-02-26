@@ -20,10 +20,11 @@ cd_plot <- cdplot(as.factor(kuehe$krank) ~ (kuehe$glukose),
 mtext("Relative Häufigkeit", side = 4, line=2.5)
 
 ### Grafik 2 ###
-
+par(cex.axis = 1.3, cex.lab = 1.5)
 mosaicplot(kuehe$gesk ~ kuehe$rasse,
-           xlab="Anzahl der Krankheiten", ylab="Rasse", col=c("darkgrey","brown2"),
-           main="Anzahl der Krankheiten in Abhängigkeit der Rassen") 
+           xlab="Anzahl der Krankheiten", ylab="Rasse", col=c("darkgrey","brown3"),
+           main="Anzahl der Krankheiten in Abhängigkeit der Rassen", cex.axis=1.2) 
+par(cex.axis = 1, cex.lab = 1)
 
 ### Grafik 3 ###
 
