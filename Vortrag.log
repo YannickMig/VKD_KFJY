@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.21)  26 FEB 2024 22:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.21)  26 FEB 2024 22:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1418,8 +1418,17 @@ Overfull \vbox (4.4051pt too high) detected at line 80
 File: Bedingtes Dichtediagramm.png Graphic file (type png)
 <use Bedingtes Dichtediagramm.png>
 Package pdftex.def Info: Bedingtes Dichtediagramm.png  used on input line 89.
-(pdftex.def)             Requested size: 342.29536pt x 175.87473pt.
- [8
+(pdftex.def)             Requested size: 354.77957pt x 182.28902pt.
+
+Overfull \hbox (12.4842pt too wide) in paragraph at lines 89--89
+ [] 
+ []
+
+
+Overfull \vbox (1.81055pt too high) detected at line 89
+ []
+
+[8
 
  <./Bedingtes Dichtediagramm.png>]
 <Chernoff-Gesichter.png, id=123, 1075.08627pt x 552.3893pt>
@@ -1469,7 +1478,7 @@ Here is how much of TeX's memory you used:
 b><C:/Users/yanni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pf
 b><C:/Users/yanni/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss8.pfb
 >
-Output written on Vortrag.pdf (10 pages, 148624 bytes).
+Output written on Vortrag.pdf (10 pages, 150099 bytes).
 PDF statistics:
  162 PDF objects out of 1000 (max. 8388607)
  26 named destinations out of 1000 (max. 500000)
