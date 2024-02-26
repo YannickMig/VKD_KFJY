@@ -1,9 +1,22 @@
 
 # Zusammengefasste Grafik für das Gewicht und die Milchmenge der Kühe
 
+gew_holstein <- kuehe$gew[kuehe$rasse == "Holstein-Schwarzbunt" & !is.na(kuehe$gew)]
+gew_fleckvieh <- kuehe$gew[kuehe$rasse == "Fleckvieh" & !is.na(kuehe$gew)]
+
+dens_gew_holstein <- density(gew_holstein)
+dens_gew_fleckvieh <- density(gew_fleckvieh)
+
+mkg_holstein <- kuehe$mkg[kuehe$rasse == "Holstein-Schwarzbunt" & !is.na(kuehe$mkg)]
+mkg_fleckvieh <- kuehe$mkg[kuehe$rasse == "Fleckvieh" & !is.na(kuehe$mkg)]
+
+dens_mkg_holstein <- density(mkg_holstein)
+dens_mkg_fleckvieh <- density(mkg_fleckvieh)
+
+#png("C:/Users/flosc/Documents/TU Dortmund/Module/3. Semester (WS23)/Visualisierung komplexer Datenstrukturen/Abschlussprojekt/Grafiken als pdf/Gewicht~Milchmenge.png", width = 680, height = 540)
 # Layout für die Grafiken
 mat <- matrix(c(1,4,2,3), ncol = 2, byrow = TRUE)
-layout(mat, widths = c(5, 2), heights = c(2, 5))
+layout(mat, widths = c(7, 2), heights = c(2, 5))
 layout.show(4)
 
 # Plot Kerndichteschätzer Gewicht nach Rasse
@@ -29,7 +42,11 @@ plot(dens_mkg_holstein$y, dens_mkg_holstein$x, main = "", xlab = "Dichte", ylab 
 lines(dens_mkg_fleckvieh$y, dens_mkg_fleckvieh$x, col = "brown", lwd = 2)
 
 # Legende
-par(mar = c(0,0,0,1))
+par(mar = c(0,0,0,0))
 plot.new()
-legend("center", legend = c("Holstein-Schwarzbunt", "Fleckvieh"), 
-       col = c("black", "brown"), pch = 15, cex = 1.1, box.lwd = NA)
+legend("topright", legend = c("Holstein-Schwarzbunt", "Fleckvieh"), 
+       col = c("black", "brown"), pch = 15, cex = 0.9, box.lwd = NA)
+
+#dev.off()
+
+layout(1)

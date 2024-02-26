@@ -1,6 +1,7 @@
 holstein <- subset(kuehe, rasse == "Holstein-Schwarzbunt")
 fleckvieh <- subset(kuehe, rasse == "Fleckvieh")
 
+par(opar)
 
 
 # Milchkühe (Kühe ohne mkg=NA oder =0)
@@ -35,10 +36,10 @@ barplot(milch_kuehe_je_farm,
         xlab = "Farm Nummer", 
         ylab = "Anzahl Kühe",
         ylim = c(0, 200),
-        col = c("black", "black", "black", "brown", "brown", "black", "brown", "black", "black", "black"))
+        col = c("darkgrey", "darkgrey", "darkgrey", "brown3", "brown3", "darkgrey", "brown3", "darkgrey", "darkgrey", "darkgrey"))
 legend("topright",
        legend = c("Holstein-Schwarzbunt", "Fleckvieh"),
-       fill = c("black", "brown"),
+       fill = c("darkgrey", "brown3"),
        title = "Kuhrassen")
 
 
@@ -49,7 +50,7 @@ barplot(milch_holstein_je_farm,
         xlab = "Farm Nummer", 
         ylab = "Anzahl Kühe",
         ylim = c(0, 200),
-        col = "black")
+        col = "darkgrey")
 
 
 # Fleckvieh je Farm
@@ -59,7 +60,7 @@ barplot(milch_fleckvieh_je_farm,
         xlab = "Farm Nummer", 
         ylab = "Anzahl Kühe",
         ylim = c(0, 200),
-        col = "brown")
+        col = "brown3")
 
 
 # Milch pro Kuh je Farm
@@ -70,17 +71,17 @@ summe_mkg_milch_kuehe$anzahl <- anzahl_kuehe_messungen$lom
 summe_mkg_milch_kuehe$MKG_pro_Kuh <- summe_mkg_milch_kuehe$mkg / anzahl_kuehe_messungen$lom
 
 milch_proh_kuh_je_farm_plot <- barplot(summe_mkg_milch_kuehe$MKG_pro_Kuh, names.arg = summe_mkg_milch_kuehe$farm,
-        ylim = c(0,40),
-        col = c("black", "black", "black", "brown", "brown", "black", "brown", "black", "black", "black"))
+        ylim = c(0,45),
+        col = c("darkgrey", "darkgrey", "darkgrey", "brown3", "brown3", "darkgrey", "brown3", "darkgrey", "darkgrey", "darkgrey"))
 title(xlab = "Farm Nummer", line = 2)
 title(ylab = "mittle Milchmenge je Kuh in [kG]", line = 2)
 text(x = milch_proh_kuh_je_farm_plot,
-     y = summe_mkg_milch_kuehe$MKG_pro_Kuh + 1,
+     y = summe_mkg_milch_kuehe$MKG_pro_Kuh + 2,
      label = paste0(round(summe_mkg_milch_kuehe$MKG_pro_Kuh, 1)))
-title(main = "Milchmenge je Farm")
+title(main = "durchschnittliche Milchmenge je Farm")
 legend("topright",
        legend = c("Holstein-Schwarzbunt", "Fleckvieh"),
-       fill = c("black", "brown"),
+       fill = c("darkgrey", "brown3"),
        title = "Kuhrassen")
 
 
@@ -91,11 +92,12 @@ summe_mkg_milch_kuehe <- aggregate(mkg ~ farm, data = milch_kuehe, FUN = sum)
 summe_mkg_milch_kuehe$anzahl <- anzahl_kuehe_messungen$lom
 summe_mkg_milch_kuehe$MKG_pro_Kuh <- summe_mkg_milch_kuehe$mkg / anzahl_kuehe_messungen$lom
 
-plot(summe_mkg_milch_kuehe$anzahl , summe_mkg_milch_kuehe$MKG_pro_Kuh , xlab = "", ylab = "", pch = 20, col = c("black", "black", "black", "brown", "brown", "black", "brown", "black", "black", "black"))
+plot(summe_mkg_milch_kuehe$anzahl , summe_mkg_milch_kuehe$MKG_pro_Kuh , xlab = "", ylab = "", pch = 20, col = c("darkgrey", "darkgrey", "darkgrey", "brown3", "brown3", "darkgrey", "brown3", "darkgrey", "darkgrey", "darkgrey"))
 title(xlab = "Anzahl Kühe", line = 2.5)
 title(ylab = "Milch je Kuh [kg]", line = 3)
 title(main = "Milchmenge je Farm")
 legend("topright",
        legend = c("Holstein-Schwarzbunt", "Fleckvieh"),
-       fill = c("black", "brown"),
+       fill = c("darkgrey", "brown3"),
        title = "Kuhrassen")
+layout(1)
