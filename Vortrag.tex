@@ -3,9 +3,7 @@
 \usepackage[T1]{fontenc}
 \beamertemplatenavigationsymbolsempty
 \title[]{Visualisierung komplexer Datenstrukturen}
-\subtitle{Kühe}
-%\subtitle{Wissenschaftliches Arbeiten}
-\author[]{Yannick, Kjell, Flo, Jacqueline}
+\author[]{Yannick Miguel, Kjell Noack, Florian Schürenberg, Jacqueline Link}
 \date[27.02.2024]{27. Februar 2024}
 \setbeamercovered{transparent}
 \usepackage[backend=biber]{biblatex}
@@ -23,17 +21,29 @@
 	\begin{frame}
 		\maketitle
 	\end{frame}        
-	
-	\addtocounter{framenumber}{-1}
-	
 	\begin{frame}
-		\frametitle{Erste Slide}	
-		test
-		%	\begin{figure}[h]
-		%	\begin{center}
-		%		{\centering \input{Mosaic.tex}} \end{center}
-		%	\vspace{-1cm}
-		%	\caption{Mosaikplot: Ersatzbewertung}
-	    %	\end{figure}
+		\frametitle{Inhaltsverzeichnis}
+		\tableofcontents
+	\end{frame}
+	\addtocounter{framenumber}{-1}
+	\section{Gründe für Betriebsverlassung}
+	\begin{frame}
+		\frametitle{Gründe für Betriebsverlassung}
+		\begin{figure}[htbp]
+			\centering
+			\includegraphics[scale = 0.32]{abgang.pdf}
+			\caption{Säulendiagramme zu den Abgangsgründen der beiden Kuhrassen}
+		\end{figure}
+	\end{frame}
+	
+	\section{Laktationseinflüsse}
+	\begin{frame}
+		\frametitle{Laktationseinflüsse}
+		\begin{figure}[htbp]
+			\centering
+			\includegraphics[scale = 0.333]{lattice.pdf}
+			\vspace{-0.6cm}
+			\caption{Boxplots zur Gegenüberstellung der Milchmenge und der aktuellen Laktationsnummer}
+		\end{figure}
 	\end{frame}
 \end{document}
