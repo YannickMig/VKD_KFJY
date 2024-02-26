@@ -18,6 +18,23 @@
 \setbeamertemplate{caption}[numbered]
 \addbibresource{Quellen.bib}
 
+
+
+\setbeamertemplate{footline}{%
+	\leavevmode%
+	\hbox{%
+		\begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,left]{author in head/foot}%
+			\usebeamerfont{author in head/foot}\insertshortauthor
+		\end{beamercolorbox}%
+		\begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
+			\usebeamerfont{title in head/foot}\insertshorttitle
+		\end{beamercolorbox}%
+		\begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,right]{date in head/foot}%
+			\usebeamerfont{date in head/foot}\hspace*{2em}
+	\end{beamercolorbox}}%
+	\vskip0pt%
+}
+
 \begin{document} 
 	\begin{frame}
 		\maketitle
@@ -26,7 +43,24 @@
 		\frametitle{Inhaltsverzeichnis}
 		\tableofcontents
 	\end{frame}
-	\addtocounter{framenumber}{-1}
+	\addtocounter{framenumber}{-2}
+	\setbeamertemplate{footline}{%
+		\leavevmode%
+		\hbox{%
+			\begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,left]{author in head/foot}%
+				\usebeamerfont{author in head/foot}\insertshortauthor
+			\end{beamercolorbox}%
+			\begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
+				\usebeamerfont{title in head/foot}\insertshorttitle
+			\end{beamercolorbox}%
+			\begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,right]{date in head/foot}%
+				\usebeamerfont{date in head/foot}\insertshortdate{}\hspace*{2em}
+				\hspace*{2ex}\insertframenumber{} / \inserttotalframenumber\hspace*{2ex}
+		\end{beamercolorbox}}%
+		\vskip0pt%
+	}
+	
+	\setcounter{page}{1}
 	\section{Gründe für Betriebsverlassung}
 	\begin{frame}
 		\frametitle{Gründe für Betriebsverlassung}
@@ -96,6 +130,21 @@
 		\caption{Chernoff-Gesichter zu den Rassen anhand von 14 Variablen}
 	\end{figure}
 	\end{frame}
+	
+	\setbeamertemplate{footline}{%
+		\leavevmode%
+		\hbox{%
+			\begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,left]{author in head/foot}%
+				\usebeamerfont{author in head/foot}\insertshortauthor
+			\end{beamercolorbox}%
+			\begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
+				\usebeamerfont{title in head/foot}\insertshorttitle
+			\end{beamercolorbox}%
+			\begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,right]{date in head/foot}%
+				\usebeamerfont{date in head/foot}\hspace*{2em}
+		\end{beamercolorbox}}%
+		\vskip0pt%
+	}
 \begin{frame}
 	\section{Literaturverzeichnis}
 	\frametitle{Literaturverzeichnis}
