@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.9)  26 FEB 2024 17:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.9)  26 FEB 2024 20:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1344,7 +1344,7 @@ u/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}]
 (Vortrag.toc) [2
 
 ]
-<abgang.pdf, id=46, 1156.32pt x 581.17125pt>
+<abgang.pdf, id=64, 1156.32pt x 581.17125pt>
 File: abgang.pdf Graphic file (type pdf)
 <use abgang.pdf>
 Package pdftex.def Info: abgang.pdf  used on input line 37.
@@ -1361,7 +1361,7 @@ Overfull \vbox (0.51637pt too high) detected at line 37
 [3
 
  <./abgang.pdf>]
-<lattice.pdf, id=58, 1074.0125pt x 575.14874pt>
+<lattice.pdf, id=76, 1074.0125pt x 575.14874pt>
 File: lattice.pdf Graphic file (type pdf)
 <use lattice.pdf>
 Package pdftex.def Info: lattice.pdf  used on input line 48.
@@ -1378,6 +1378,27 @@ Overfull \vbox (11.0413pt too high) detected at line 48
 [4
 
  <./lattice.pdf>]
+<Scatter und Kerndichte Milchmenge~Gewicht.png, id=88, 737.84229pt x 317.988pt>
+
+File: Scatter und Kerndichte Milchmenge~Gewicht.png Graphic file (type png)
+<use Scatter und Kerndichte Milchmenge~Gewicht.png>
+Package pdftex.def Info: Scatter und Kerndichte Milchmenge~Gewicht.png  used on
+ input line 59.
+(pdftex.def)             Requested size: 342.29536pt x 147.52324pt.
+ [5
+
+ <./Scatter und Kerndichte Milchmenge~Gewicht.png>]
+<Boxplot Milch~Farm.png, id=96, 701.36314pt x 354.46715pt>
+File: Boxplot Milch~Farm.png Graphic file (type png)
+<use Boxplot Milch~Farm.png>
+Package pdftex.def Info: Boxplot Milch~Farm.png  used on input line 70.
+(pdftex.def)             Requested size: 342.29536pt x 172.9981pt.
+
+[6
+
+ <./Boxplot Milch~Farm.png>] [7
+
+]
 \tf@nav=\write7
 \openout7 = `Vortrag.nav'.
 
@@ -1393,16 +1414,16 @@ LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-09>
  ***********
 Package rerunfilecheck Info: File `Vortrag.out' has not changed.
-(rerunfilecheck)             Checksum: 9A0C9E734E4B68FE2CDC059E1B317897;341.
+(rerunfilecheck)             Checksum: 1CD57B078013A88335E48B86772CE228;782.
 Package logreq Info: Writing requests to 'Vortrag.run.xml'.
 \openout1 = `Vortrag.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31811 strings out of 474587
- 638381 string characters out of 5745702
- 1931558 words of memory out of 5000000
- 53442 multiletter control sequences out of 15000+600000
+ 31853 strings out of 474587
+ 639201 string characters out of 5745702
+ 1934558 words of memory out of 5000000
+ 53475 multiletter control sequences out of 15000+600000
  575311 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,123p,682b,803s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1410,9 +1431,9 @@ Here is how much of TeX's memory you used:
 b><C:/Users/Jacqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pf
 b><C:/Users/Jacqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss8.pfb
 >
-Output written on Vortrag.pdf (4 pages, 72216 bytes).
+Output written on Vortrag.pdf (7 pages, 100259 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
- 11 named destinations out of 1000 (max. 500000)
- 75 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 132 PDF objects out of 1000 (max. 8388607)
+ 20 named destinations out of 1000 (max. 500000)
+ 109 words of extra memory for PDF output out of 10000 (max. 10000000)
 
