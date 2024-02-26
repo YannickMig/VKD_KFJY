@@ -13,18 +13,21 @@ kuehe$krank <- krank
 
 ### Grafik 1 ###
 
-par(mar = c(5, 4, 4, 6), cex.lab = 1.2)
+par(mar = c(5, 4, 4, 6), cex.lab = 1.2, cex.main=1.6)
 cd_plot <- cdplot(as.factor(kuehe$krank) ~ (kuehe$glukose), 
                   xlab = expression(paste("Gemittelter Glukosewert in \  ", frac("mmol", "L"))),
-                  ylab="Gesundheitsstatus", main="Gesundheitsstatus in Abhängigkeit der Glukosewerte", yaxlabels = c("gesund","krank"))
+                  ylab="Gesundheitsstatus", main="Gesundheitsstatus in Abhängigkeit der Glukosewerte", 
+                  yaxlabels = c("gesund","krank"))
 mtext("Relative Häufigkeit", side = 4, line=2.5, cex = 1.2)
+par(cex.axis = 1, cex.lab = 1, cex.main = 1)
+
 
 ### Grafik 2 ###
-par(cex.axis = 1.3, cex.lab = 1.5)
+par(cex.axis = 1.3, cex.lab = 1.5, cex.main=1.7)
 mosaicplot(kuehe$gesk ~ kuehe$rasse,
            xlab="Anzahl der Krankheiten", ylab="Rasse", col=c("darkgrey","brown3"),
            main="Anzahl der Krankheiten in Abhängigkeit der Rassen", cex.axis=1.2) 
-par(cex.axis = 1, cex.lab = 1)
+par(cex.axis = 1, cex.lab = 1, cex.main = 1)
 
 ### Grafik 3 ###
 
