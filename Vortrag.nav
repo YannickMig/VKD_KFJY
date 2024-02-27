@@ -4,12 +4,12 @@
 \headcommand {\beamer@framepages {2}{2}}
 \headcommand {\beamer@sectionpages {1}{0}}
 \headcommand {\beamer@subsectionpages {1}{0}}
-\headcommand {\sectionentry {1}{Gründe für Betriebsverlassung}{1}{Gründe für Betriebsverlassung}{0}}
+\headcommand {\sectionentry {1}{Abgangsgrund}{1}{Abgangsgrund}{0}}
 \headcommand {\slideentry {1}{0}{1}{1/1}{}{0}}
 \headcommand {\beamer@framepages {1}{1}}
 \headcommand {\beamer@sectionpages {1}{1}}
 \headcommand {\beamer@subsectionpages {1}{1}}
-\headcommand {\sectionentry {2}{Milchmenge und Einflüsse}{2}{Milchmenge und Einflüsse}{0}}
+\headcommand {\sectionentry {2}{Mittlere Milchmenge}{2}{Mittlere Milchmenge}{0}}
 \headcommand {\slideentry {2}{0}{1}{2/2}{}{0}}
 \headcommand {\beamer@framepages {2}{2}}
 \headcommand {\slideentry {2}{0}{2}{3/3}{}{0}}
@@ -18,33 +18,27 @@
 \headcommand {\beamer@framepages {4}{4}}
 \headcommand {\beamer@sectionpages {2}{4}}
 \headcommand {\beamer@subsectionpages {2}{4}}
-\headcommand {\sectionentry {3}{Tage bis zum Eintritt der Krankheiten}{5}{Tage bis zum Eintritt der Krankheiten}{0}}
+\headcommand {\sectionentry {3}{Krankheit}{5}{Krankheit}{0}}
 \headcommand {\slideentry {3}{0}{1}{5/5}{}{0}}
 \headcommand {\beamer@framepages {5}{5}}
-\headcommand {\beamer@sectionpages {5}{5}}
-\headcommand {\beamer@subsectionpages {5}{5}}
-\headcommand {\sectionentry {4}{Krankheit/Abgangsgrund}{6}{Krankheit/Abgangsgrund}{0}}
-\headcommand {\slideentry {4}{0}{1}{6/6}{}{0}}
+\headcommand {\slideentry {3}{0}{2}{6/6}{}{0}}
 \headcommand {\beamer@framepages {6}{6}}
-\headcommand {\beamer@sectionpages {6}{6}}
-\headcommand {\beamer@subsectionpages {6}{6}}
-\headcommand {\sectionentry {5}{Mosaikplot zur Krankheitsanzahl nach Rasse}{7}{Mosaikplot zur Krankheitsanzahl nach Rasse}{0}}
-\headcommand {\slideentry {5}{0}{1}{7/7}{}{0}}
+\headcommand {\beamer@sectionpages {5}{6}}
+\headcommand {\beamer@subsectionpages {5}{6}}
+\headcommand {\sectionentry {4}{Gesundheitsstatus}{7}{Gesundheitsstatus}{0}}
+\headcommand {\slideentry {4}{0}{1}{7/7}{}{0}}
 \headcommand {\beamer@framepages {7}{7}}
-\headcommand {\beamer@sectionpages {7}{7}}
-\headcommand {\beamer@subsectionpages {7}{7}}
-\headcommand {\sectionentry {6}{Bedingtes Dichtediagramm zu den Glukosewerten}{8}{Bedingtes Dichtediagramm zu den Glukosewerten}{0}}
-\headcommand {\slideentry {6}{0}{1}{8/8}{}{0}}
+\headcommand {\slideentry {4}{0}{2}{8/8}{}{0}}
 \headcommand {\beamer@framepages {8}{8}}
-\headcommand {\beamer@sectionpages {8}{8}}
-\headcommand {\beamer@subsectionpages {8}{8}}
-\headcommand {\sectionentry {7}{Chernoff-Gesichter zu den Rassen}{9}{Chernoff-Gesichter zu den Rassen}{0}}
-\headcommand {\slideentry {7}{0}{1}{9/9}{}{0}}
+\headcommand {\beamer@sectionpages {7}{8}}
+\headcommand {\beamer@subsectionpages {7}{8}}
+\headcommand {\sectionentry {5}{Chernoff-Gesichter zu den Rassen}{9}{Chernoff-Gesichter zu den Rassen}{0}}
+\headcommand {\slideentry {5}{0}{1}{9/9}{}{0}}
 \headcommand {\beamer@framepages {9}{9}}
 \headcommand {\beamer@sectionpages {9}{9}}
 \headcommand {\beamer@subsectionpages {9}{9}}
-\headcommand {\sectionentry {8}{Literaturverzeichnis}{10}{Literaturverzeichnis}{0}}
-\headcommand {\slideentry {8}{0}{0}{10/10}{}{0}}
+\headcommand {\sectionentry {6}{Literaturverzeichnis}{10}{Literaturverzeichnis}{0}}
+\headcommand {\slideentry {6}{0}{0}{10/10}{}{0}}
 \headcommand {\beamer@framepages {10}{10}}
 \headcommand {\beamer@partpages {1}{10}}
 \headcommand {\beamer@subsectionpages {9}{10}}

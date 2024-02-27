@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.9)  27 FEB 2024 10:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10.12) (preloaded format=pdflatex 2023.12.9)  27 FEB 2024 11:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1344,7 +1344,7 @@ u/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}]
 (Vortrag.toc) [2
 
 ]
-<abgang.pdf, id=80, 1156.32pt x 581.17125pt>
+<abgang.pdf, id=68, 1156.32pt x 581.17125pt>
 File: abgang.pdf Graphic file (type pdf)
 <use abgang.pdf>
 Package pdftex.def Info: abgang.pdf  used on input line 72.
@@ -1373,7 +1373,7 @@ l.72 	\end{frame}
                   [1
 
  <./abgang.pdf>]
-<lattice.pdf, id=91, 1074.0125pt x 575.14874pt>
+<lattice.pdf, id=79, 1074.0125pt x 575.14874pt>
 File: lattice.pdf Graphic file (type pdf)
 <use lattice.pdf>
 Package pdftex.def Info: lattice.pdf  used on input line 83.
@@ -1402,8 +1402,8 @@ l.83 	\end{frame}
                   [2
 
  <./lattice.pdf>]
-<Scatter und Kerndichte Milchmenge~Gewicht.png, id=102, 737.84229pt x 317.988pt
->
+<Scatter und Kerndichte Milchmenge~Gewicht.png, id=90, 737.84229pt x 317.988pt>
+
 File: Scatter und Kerndichte Milchmenge~Gewicht.png Graphic file (type png)
 <use Scatter und Kerndichte Milchmenge~Gewicht.png>
 Package pdftex.def Info: Scatter und Kerndichte Milchmenge~Gewicht.png  used on
@@ -1412,7 +1412,7 @@ Package pdftex.def Info: Scatter und Kerndichte Milchmenge~Gewicht.png  used on
  [3
 
  <./Scatter und Kerndichte Milchmenge~Gewicht.png>]
-<Boxplot Milch~Farm.png, id=111, 701.36314pt x 354.46715pt>
+<Boxplot Milch~Farm.png, id=99, 701.36314pt x 354.46715pt>
 File: Boxplot Milch~Farm.png Graphic file (type png)
 <use Boxplot Milch~Farm.png>
 Package pdftex.def Info: Boxplot Milch~Farm.png  used on input line 105.
@@ -1420,103 +1420,68 @@ Package pdftex.def Info: Boxplot Milch~Farm.png  used on input line 105.
  [4
 
  <./Boxplot Milch~Farm.png>]
-<paralleler Koordinatenplot.png, id=120, 895.84688pt x 411.78844pt>
+<paralleler Koordinatenplot.png, id=108, 895.84688pt x 411.78844pt>
 File: paralleler Koordinatenplot.png Graphic file (type png)
 <use paralleler Koordinatenplot.png>
 Package pdftex.def Info: paralleler Koordinatenplot.png  used on input line 116
 .
 (pdftex.def)             Requested size: 342.29536pt x 157.33575pt.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.116 \end{frame}
-                 
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.116 \end{frame}
-                 
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-[5
+ [5
 
  <./paralleler Koordinatenplot.png>]
-<Sterndiagramm.png, id=129, 947.03813pt x 435.12563pt>
+<Sterndiagramm.png, id=117, 947.03813pt x 435.12563pt>
 File: Sterndiagramm.png Graphic file (type png)
 <use Sterndiagramm.png>
-Package pdftex.def Info: Sterndiagramm.png  used on input line 127.
+Package pdftex.def Info: Sterndiagramm.png  used on input line 125.
 (pdftex.def)             Requested size: 331.4683pt x 152.29625pt.
-
-! Missing number, treated as zero.
-<to be read again> 
-                   \relax 
-l.127 	\end{frame}
-                  
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-! Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \relax 
-l.127 	\end{frame}
-                  
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-[6
+ [6
 
  <./Sterndiagramm.png>]
-<Mosaikplots.png, id=137, 967.52162pt x 513.73326pt>
+<Mosaikplots.png, id=126, 1075.08627pt x 552.3893pt>
 File: Mosaikplots.png Graphic file (type png)
 <use Mosaikplots.png>
-Package pdftex.def Info: Mosaikplots.png  used on input line 137.
-(pdftex.def)             Requested size: 338.63765pt x 179.80933pt.
- [7
+Package pdftex.def Info: Mosaikplots.png  used on input line 135.
+(pdftex.def)             Requested size: 376.28583pt x 193.33914pt.
 
- <./Mosaikplots.png>]
-<Bedingtes Dichtediagramm.png, id=145, 1075.08627pt x 552.3893pt>
-File: Bedingtes Dichtediagramm.png Graphic file (type png)
-<use Bedingtes Dichtediagramm.png>
-Package pdftex.def Info: Bedingtes Dichtediagramm.png  used on input line 147.
-(pdftex.def)             Requested size: 354.77957pt x 182.28902pt.
-
-Overfull \hbox (12.4842pt too wide) in paragraph at lines 147--147
+Overfull \hbox (33.99046pt too wide) in paragraph at lines 135--135
  [] 
  []
 
 
-Overfull \vbox (1.81055pt too high) detected at line 147
+Overfull \vbox (7.17021pt too high) detected at line 135
+ []
+
+[7
+
+ <./Mosaikplots.png>]
+<Bedingtes Dichtediagramm.png, id=134, 1075.08627pt x 552.3893pt>
+File: Bedingtes Dichtediagramm.png Graphic file (type png)
+<use Bedingtes Dichtediagramm.png>
+Package pdftex.def Info: Bedingtes Dichtediagramm.png  used on input line 144.
+(pdftex.def)             Requested size: 354.77957pt x 182.28902pt.
+
+Overfull \hbox (12.4842pt too wide) in paragraph at lines 144--144
+ [] 
+ []
+
+
+Overfull \vbox (1.81055pt too high) detected at line 144
  []
 
 [8
 
  <./Bedingtes Dichtediagramm.png>]
-<Chernoff-Gesichter.png, id=153, 1075.08627pt x 552.3893pt>
+<Chernoff-Gesichter.png, id=143, 1075.08627pt x 552.3893pt>
 File: Chernoff-Gesichter.png Graphic file (type png)
 <use Chernoff-Gesichter.png>
-Package pdftex.def Info: Chernoff-Gesichter.png  used on input line 157.
+Package pdftex.def Info: Chernoff-Gesichter.png  used on input line 154.
 (pdftex.def)             Requested size: 342.29536pt x 175.87473pt.
  [9
 
  <./Chernoff-Gesichter.png>]
 
 LaTeX Warning: The counter will not be printed.
-             The label is:  on input line 184.
+             The label is:  on input line 181.
 
 [10
 
@@ -1536,16 +1501,16 @@ LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-09>
  ***********
 Package rerunfilecheck Info: File `Vortrag.out' has not changed.
-(rerunfilecheck)             Checksum: CB981929AAE967FD3D20E908129753E8;1668.
+(rerunfilecheck)             Checksum: 11A7A7A9B8F4F101EC6D2A0326E2CC50;815.
 Package logreq Info: Writing requests to 'Vortrag.run.xml'.
 \openout1 = `Vortrag.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31959 strings out of 474587
- 641429 string characters out of 5745702
- 1937558 words of memory out of 5000000
- 53572 multiletter control sequences out of 15000+600000
+ 31949 strings out of 474587
+ 641337 string characters out of 5745702
+ 1935558 words of memory out of 5000000
+ 53564 multiletter control sequences out of 15000+600000
  575311 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,15n,123p,682b,803s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1553,9 +1518,9 @@ Here is how much of TeX's memory you used:
 b><C:/Users/Jacqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pf
 b><C:/Users/Jacqu/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss8.pfb
 >
-Output written on Vortrag.pdf (12 pages, 186673 bytes).
+Output written on Vortrag.pdf (12 pages, 183431 bytes).
 PDF statistics:
- 191 PDF objects out of 1000 (max. 8388607)
- 29 named destinations out of 1000 (max. 500000)
- 164 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 181 PDF objects out of 1000 (max. 8388607)
+ 27 named destinations out of 1000 (max. 500000)
+ 148 words of extra memory for PDF output out of 10000 (max. 10000000)
 
