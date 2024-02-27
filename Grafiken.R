@@ -11,6 +11,7 @@ krank <- numeric(1228)
 krank[which(gesk > 0)] <- T
 kuehe$krank <- krank
 
+
 ### Grafik 1 ###
 
 par(mar = c(5, 4, 4, 6), cex.lab = 1.2, cex.main=1.6)
@@ -23,10 +24,17 @@ par(cex.axis = 1, cex.lab = 1, cex.main = 1)
 
 
 ### Grafik 2 ###
+
+krank[which(krank == 1)] <- "krank"
+krank[which(krank == 0)] <- "gesund"
+kuehe$krank <- krank
+
 par(cex.axis = 1.3, cex.lab = 1.5, cex.main=1.7)
-mosaicplot(kuehe$gesk ~ kuehe$rasse,
-           xlab="Anzahl der Krankheiten", ylab="Rasse", col=c("darkgrey","brown3"),
-           main="Anzahl der Krankheiten in Abhängigkeit der Rassen", cex.axis=1.2) 
+mosaicplot(kuehe$farm ~ kuehe$krank,
+           xlab="Farm", col=c("limegreen","darkgrey"),
+           main="Anzahl der Krankheiten in Abhängigkeit der Rassen", cex.axis=1.2,
+           ylab="Gesundheitsstatus") 
+
 par(cex.axis = 1, cex.lab = 1, cex.main = 1)
 
 ### Grafik 3 ###
