@@ -64,3 +64,8 @@ Fleckvieh <- f[which(f != 0)]
 plotrasse <- rbind(Fleckvieh,Holstein_Schwarzbunt)
 PlotFaces(plotrasse[1:2,],nr = 1 , nc = 2, scale = T)
 citation("DescTools")
+
+table(krank)
+1-476/(476+752)
+?PlotFaces
+min(kuehe$glukose, na.rm = T)
