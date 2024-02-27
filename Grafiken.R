@@ -32,7 +32,7 @@ kuehe$krank <- krank
 par(cex.axis = 1.3, cex.lab = 1.5, cex.main=1.7)
 mosaicplot(kuehe$farm ~ kuehe$krank,
            xlab="Farm", col=c("limegreen","darkgrey"),
-           main="Anzahl der Krankheiten in Abhängigkeit der Rassen", cex.axis=1.2,
+           main="Gesundheitsstatus in Abhängigkeit der Farm", cex.axis=1.2,
            ylab="Gesundheitsstatus") 
 
 par(cex.axis = 1, cex.lab = 1, cex.main = 1)

@@ -1,8 +1,6 @@
-\beamer@sectionintoc {1}{Gründe für Betriebsverlassung}{1}{0}{1}
-\beamer@sectionintoc {2}{Milchmenge und Einflüsse}{2}{0}{2}
-\beamer@sectionintoc {3}{Tage bis zum Eintritt der Krankheiten}{5}{0}{3}
-\beamer@sectionintoc {4}{Krankheit/Abgangsgrund}{6}{0}{4}
-\beamer@sectionintoc {5}{Mosaikplot zur Krankheitsanzahl nach Rasse}{7}{0}{5}
-\beamer@sectionintoc {6}{Bedingtes Dichtediagramm zu den Glukosewerten}{8}{0}{6}
-\beamer@sectionintoc {7}{Chernoff-Gesichter zu den Rassen}{9}{0}{7}
-\beamer@sectionintoc {8}{Literaturverzeichnis}{10}{0}{8}
+\beamer@sectionintoc {1}{Abgangsgrund}{1}{0}{1}
+\beamer@sectionintoc {2}{Mittlere Milchmenge}{2}{0}{2}
+\beamer@sectionintoc {3}{Krankheit}{5}{0}{3}
+\beamer@sectionintoc {4}{Gesundheitsstatus}{7}{0}{4}
+\beamer@sectionintoc {5}{Chernoff-Gesichter zu den Rassen}{9}{0}{5}
+\beamer@sectionintoc {6}{Literaturverzeichnis}{10}{0}{6}
